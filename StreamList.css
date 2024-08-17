@@ -1,0 +1,92 @@
+﻿.streamlist-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.event-form {
+    display: flex;
+    gap: 10px;
+}
+
+.event-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .add-button:hover {
+        background-color: #45a049;
+    }
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.edit-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.save-button, .edit-button, .delete-button, .complete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-button {
+    background-color: #ffa500;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.complete-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.edit-button:hover {
+    background-color: #ff8c00;
+}
+
+.delete-button:hover {
+    background-color: #e53935;
+}
+
+.complete-button:hover {
+    background-color: #0d47a1;
+}
