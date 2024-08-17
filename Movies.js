@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchMovies } from './tmdbService';
-import './Movies.css';  // Ensure this is imported
+import './Movies.css';  
 
 const Movies = () => {
     const [movies, setMovies] = useState([]);
