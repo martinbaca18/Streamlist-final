@@ -16,7 +16,7 @@ const Movies = () => {
 
     return (
         <div className="movies-container">
-            <h1>Popular Movies</h1>
+            <h1>New Movies</h1>
             <ul className="movie-list">
                 {movies.map(movie => (
                     <li key={movie.id} className="movie-item">
